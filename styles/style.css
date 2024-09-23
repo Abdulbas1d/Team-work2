@@ -15,4 +15,8 @@
     width: 1440px;
     height: 768px;
     background-color: rgba(89, 117, 255, 1);
+
+    .logo {
+        display: flex;
+    }
 }
