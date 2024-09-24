@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  width: auto;
+}
+
+.finance_cards {
+  display: flex;
+}
+
+.finance_cards img {
+  width: 622px;
+  height: 604px;
+  margin: 178px 95px 178px 124px;
+}
+
+.finance_text {
+  margin: 214px 126px 258px 0px;
+  text-align: left;
+}
+
+.finance_text a {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 68px;
+  text-align: left;
+  color: #3029d9;
+  text-decoration: none;
+  margin: 0px;
+}
+
+.finance_text h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 68px;
+  text-align: left;
+  color: #0b1131;
+  margin-bottom: 24px;
+}
+.finance_text p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #a0abb8;
+}
+
+/* one card finish */
+
+.services_title {
+  margin: 0px 573px 104px 571px;
+  padding: 0px;
+}
+
+.services_title h6 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 68px;
+  text-align: left;
+  color: #3029d9;
+}
