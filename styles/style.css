@@ -22,17 +22,19 @@
     font-weight: 600;
     font-size: 24px;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .subtitle {
     color: #fff;
     font-weight: 700;
     font-size: 48px;
-    margin-bottom: 27px;
     margin-left: 356px;
-    width: 728px;
+    width: 828px;
     height: 136px;
     text-align: center;
+    position: relative;
+    right: 45px;
 }
 
 .button {
@@ -70,7 +72,7 @@
     margin-top: 35px;
 }
 
-.nav-1 {
+.nav-1 , .nav-2 , .nav-3{
     display: flex;
     flex-direction: column;
     gap: 10px;
