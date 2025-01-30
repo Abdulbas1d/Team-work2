@@ -1,12 +1,654 @@
 * {
-    margin: 0;
-    padding: 0;
+    padding: 0%;
+    margin: 0%;
     box-sizing: border-box;
-    font-family: 'Poppins', 'sans-serif';
+}
+
+body {
+    font-family: "Poppins";
 }
 
 .container {
-    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0% auto;
+}
+
+.start {
+    background-color: #111849;
+    margin-top: 90px;
+}
+
+.contact {
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.contact-with-us {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 68px;
+    text-decoration: none;
+    padding-left: 493px;
+    color: #5975ff;
+}
+
+.contact-with-us:hover {
+    color: coral;
+}
+
+.contact h2 {
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.button-contact {
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-right: 19px;
+    padding-left: 19px;
+    margin-left: 538px;
+    margin-top: 27px;
+    border-radius: 4px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 79px;
+    margin-bottom: 78px;
+}
+
+.nav-list,
+.nav-footer {
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: left;
+    color: #0b1131;
+}
+
+.nav-item a:hover {
+    color: coral;
+}
+
+.we-finance {
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: left;
+    color: #0b1131;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.we-finance:hover {
+    color: coral;
+}
+
+.logo p {
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #a0abb8;
+    width: 262px;
+    margin-top: 34px;
+}
+
+.footer-bottom {
+    margin-bottom: 88px;
+}
+
+.footer-bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 88px;
+}
+
+.nav-footer {
+    display: flex;
+    gap: 34px;
+}
+
+.colour a {
+    color: #a0abb8;
+}
+
+.footer-left p {
+    color: #a0abb8;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.contact {
+    align-items: center;
+}
+
+@media screen and (max-width: 1178px) {
+    .container {
+        padding-left: 30px
+    }
+
+    .contact h2 {
+        font-size: 30px
+    }
+
+    .contact-with-us {
+        padding-right: 40px
+    }
+
+    .start {
+        width: 100%;
+        margin-left: 50px
+    }
+
+    .contact-with-us {
+        display: none
+    }
+
+    .button-contact {
+        display: none
+    }
+
+    .footer-container {
+        padding-left: 20px
+    }
+
+    .title {
+        position: relative;
+        left: 50px
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .title {
+        position: relative;
+        left: 120px
+    }
+}
+
+@media screen and (max-width: 971px) {
+    .our-services-container {
+        flex-direction: column
+    }
+
+    .title {
+        padding-right: 230px
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .title-container {
+        margin-left: 60px
+    }
+
+    .our-services {
+        margin-left: 120px
+    }
+
+    .title-container h3 {
+        font-size: 18px
+    }
+
+    .title-container h4 {
+        font-size: 36px
+    }
+}
+
+@media screen and (max-width: 476px) {
+    .title-container {
+        margin-left: 50px
+    }
+
+    .our-services {
+        margin-left: 100px
+    }
+}
+
+@media screen and (max-width: 388px) {
+    .title-container {
+        margin-right: 20px
+    }
+
+    .our-services {
+        margin-right: 20px
+    }
+
+    .title-container h3 {
+        font-size: 15px;
+        font-family: "Poppins";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+        width: 102px;
+        margin-top: 30px
+    }
+
+    .title-container h2 {
+        font-size: 26px;
+        font-family: "Poppins";
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: center;
+        width: 136px;
+        margin-top: 15px
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: none;
+        gap: 60px;
+    }
+}
+
+.container {
+  max-width: 1440px;
+  width: auto;
+}
+
+.finance_cards {
+  display: flex;
+}
+
+.finance_cards img {
+  width: 622px;
+  height: 604px;
+  margin: 178px 95px 178px 124px;
+}
+
+.finance_text {
+  margin: 214px 126px 258px 0px;
+  text-align: left;
+}
+
+.finance_text a {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 68px;
+  text-align: left;
+  color: #3029d9;
+  text-decoration: none;
+  margin: 0px;
+}
+
+.finance_text h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 68px;
+  text-align: left;
+  color: #0b1131;
+  margin-bottom: 24px;
+}
+.finance_text p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #a0abb8;
+}
+.services_title {
+  margin: 0px 573px 104px 571px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services_title h6 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 68px;
+  text-align: left;
+  color: #3029d9;
+}
+.services_title h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 68px;
+  text-align: center;
+  color: #0b1131;
+}
+
+/* servisez cards */
+
+.services_cards {
+  display: flex;
+  margin: 0px 126px 90px 124px;
+  align-items: center;
+  gap: 34px;
+}
+
+.finance_card img {
+  width: 100%;
+  margin-bottom: 34px;
+}
+
+.finance_card h6 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: #3029d9;
+  margin: 0px 34px 8px;
+}
+
+.finance_card h4 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+  color: #0b1131;
+  margin: 0px 34px 8px 34px;
+}
+
+.finance_card p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #0b1131;
+  margin: 0px 47px 14px 34px;
+}
+
+.finance_card button {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+  background-color: #3029d9;
+  color: white;
+  border: none;
+  margin: 0px 228px 34px 34px;
+  border-radius: 4px;
+  padding: 9px 18px;
+  cursor: pointer;
+} 
+
+.my_container {
+    max-width: 1440px;
+    padding: 0 124px;
+    background-color: #3029D9;
+    margin: auto;
+}
+
+.Feature {
+    width: 100%;
+    margin-top: 93px;
+}
+
+.Feature .Block {
+    width: 100%;
+    padding: 140px 0;
+    position: relative;
+}
+
+.Feature .Block .a_text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 68px;
+    text-align: left;
+    color: #5975FF;
+    text-decoration: none;
+}
+
+.Feature .Block .Block_text_one {
+    max-width: 372px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: left;
+    color: white;
+}
+
+.Feature .Block h6 {
+    max-width: 473px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #B8C6D6;
+    margin-top: 24px;
+}
+
+.Feature .Block .Block_btn {
+    width: 170px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 38px;
+    line-height: 21px;
+    text-align: left;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    background-color: #111849;
+    padding: 10px 26px;
+    display: block;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.Feature .Block .Block_btn:hover {
+    background-color: #4b5c8f;
+    transform: scale(1.05);
+}
+
+.Feature .Block .image {
+    position: absolute;
+    top: -10.4%;
+    right: 0;
+}
+
+.Feature .Block_responsiv {
+    width: 100%;
+    display: none;
+}
+
+.Feature .Block_responsiv .head_text {
+    background-color: white;
+}
+
+.Feature .Block_responsiv h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #0B1131;
+    padding: 38px 0;
+}
+
+.Feature .Block_responsiv .owl {
+    max-width: 377px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 48px 0;
+}
+
+.Feature .Block_responsiv .owl_one {
+    width: 109px;
+    height: 56px;
+    align-items: center;
+    border-radius: 0px 50px 40px 50px;
+    padding: 21px 30px;
+}
+
+.Feature .Block_responsiv .owl_one:hover {
+    background-color: white;
+}
+
+.Feature .Block_responsiv .owl_one:hover .rl {
+    display: block;
+    transform: rotateY(180deg);
+}
+
+.Feature .Block_responsiv .owl_one:hover .r {
+    display: none;
+}
+
+.Feature .Block_responsiv .owl_one:hover .l {
+    display: none;
+}
+
+.Feature .Block_responsiv .owl_one:hover .lr {
+    display: block;
+}
+
+.Feature .Block_responsiv .l {
+    transform: rotateY(180deg);
+}
+
+.Feature .Block_responsiv .rl {
+    display: none;
+}
+
+.Feature .Block_responsiv .lr {
+    display: none;
+}
+
+.Feature .Block_responsiv .border {
+    border-radius: 50px 0px 40px 50px;
+}
+
+.Feature .Block_responsiv .image_glavni {
+    width: 100%;
+}
+
+.Feature .Block_responsiv .image_glavni img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1330px) {
+    .my_container {
+        padding: 0 70px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .Feature .Block {
+        padding: 80px 0;
+    }
+
+    .Feature .Block .image {
+        width: 457px;
+    }
+
+    .Feature .Block .Block_text_one {
+        font-size: 38px;
+        line-height: 45px;
+    }
+
+    .Feature .Block h6 {
+        max-width: 423px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Feature .Block h6 {
+        max-width: 330px;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 15px;
+    }
+
+    .Feature .Block .Block_text_one {
+        max-width: 300px;
+    }
+
+    .Feature .Block .image {
+        width: 400px;
+    }
+
+    .Feature .Block .Block_btn {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .Feature .Block .image {
+        width: 350px;
+    }
+
+    .Feature .Block .Block_text_one {
+        max-width: 240px;
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .Feature .Block .a_text {
+        font-size: 16px;
+    }
+
+    .Feature .Block h6 {
+        max-width: 270px;
+        font-size: 10px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+
+    .Feature .Block .Block_btn {
+        width: 116px;
+        font-size: 11px;
+        padding: 8px 10px;
+    }
+
+    .Feature .Block {
+        padding: 60px 0;
+    }
+
+    .my_container {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .my_container {
+        padding: 0;
+    }
+
+    .Feature .Block {
+        display: none;
+    }
+
+    .Feature .Block_responsiv {
+        display: block;
+    }
 }
 
 .header {
